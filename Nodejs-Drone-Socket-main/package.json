@@ -1,0 +1,19 @@
+{
+  "name": "drone-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server/drone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/drone.js",
+    "dev": "nodemon Server/drone.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  }
+}
